@@ -4,6 +4,7 @@ import { getAllEvents } from "../../dummy-data";
 
 const index = () => {
   const events = getAllEvents();
+
   return (
     <div>
       <EventList items={events} />
